@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>heron_bringup</name>
+  <version>0.1.0</version>
+  <description>
+    Provides upstart setup for Heron, and launch files for the standard
+    configuration. Also provides configuration for u-blox GPS receiver
+    and Point Grey camera which are part of Heron's sensor suite.
+  </description>
+  <maintainer email="mpurvis@clearpathrobotics.com">Mike Purvis</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>nmea_comms</run_depend>
+  <run_depend>nmea_navsat_driver</run_depend>
+  <run_depend>lms1xx</run_depend>
+  <run_depend>axis_camera</run_depend>
+  <run_depend version_gte="0.1.1">robot_upstart</run_depend>
+  <!-- camera -->
+  <run_depend>camera1394</run_depend>
+  <run_depend>image_proc</run_depend>
+  <run_depend>compressed_image_transport</run_depend>
+
+  <export>
+  </export>
+</package>
