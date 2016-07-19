@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>heron_bringup</name>
-  <version>0.1.1</version>
+  <version>0.1.2</version>
   <description>
     Provides upstart setup for Heron, and launch files for the standard
     configuration. Also provides configuration for u-blox GPS receiver
@@ -12,6 +12,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <run_depend>heron_base</run_depend>
   <run_depend>nmea_comms</run_depend>
   <run_depend>nmea_navsat_driver</run_depend>
   <run_depend>lms1xx</run_depend>
