@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>heron_base</name>
-  <version>0.1.1</version>
+  <version>0.1.2</version>
   <description>Heron's mobility and sensor base.</description>
 
   <maintainer email="mpurvis@clearpathrobotics.com">Mike Purvis</maintainer>
@@ -19,12 +19,14 @@
   <run_depend>heron_bringup</run_depend>
   <run_depend>robot_upstart</run_depend>
   <run_depend>heron_msgs</run_depend>
+  <run_depend>heron_controller</run_depend>
   <run_depend>nmea_msgs</run_depend>
   <run_depend>nmea_comms</run_depend>
   <run_depend>nmea_navsat_driver</run_depend>
   <run_depend>enu</run_depend>
   <run_depend>rosserial_python</run_depend>
   <run_depend>rosserial_server</run_depend>
+  <run_depend>tf</run_depend>
   <run_depend>um6</run_depend>
   <run_depend>imu_compass</run_depend>
   <run_depend>declination</run_depend>
