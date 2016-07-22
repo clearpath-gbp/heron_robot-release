@@ -1,0 +1,12 @@
+Source: ros-indigo-heron-robot
+Section: misc
+Priority: extra
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/Robots/Heron
+Standards-Version: 3.9.2
+
+Package: ros-indigo-heron-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-heron-bringup, ros-indigo-heron-controller, ros-indigo-heron-firmware, ros-indigo-heron-nmea
+Description: Metapackage of what goes on the Heron by default.
