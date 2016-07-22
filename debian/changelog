@@ -1,0 +1,74 @@
+ros-indigo-heron-nmea (0.1.4-0trusty) trusty; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Fri, 22 Jul 2016 04:00:00 -0000
+
+ros-indigo-heron-nmea (0.1.3-0trusty) trusty; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Fri, 22 Jul 2016 04:00:00 -0000
+
+ros-indigo-heron-nmea (0.1.2-0trusty) trusty; urgency=high
+
+  * Set queue_size to python publishers.
+  * Added navsat_sentence_relay.
+  * Contributors: Tony Baltovski
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Tue, 19 Jul 2016 04:00:00 -0000
+
+ros-indigo-heron-nmea (0.1.1-0trusty) trusty; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Fri, 08 Jul 2016 04:00:00 -0000
+
+ros-indigo-heron-nmea (0.1.0-0trusty) trusty; urgency=high
+
+  * Added env-hooks for mag and controller config.  Renamed folder kingfisher to heron.
+  * Added dependency on heron_msgs_gencpp.  Switch to system headers and added boost to CMakeLists.txt.
+  * Heron rename.
+  * Contributors: Tony Baltovski
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Wed, 06 Jul 2016 04:00:00 -0000
+
+ros-indigo-heron-nmea (0.0.5-0trusty) trusty; urgency=high
+
+  * Instantiate Helm and Course classes as well as Drive.
+  * Fix topic name for Hydro, will change back on Indigo.
+  * Remove screen output tags from launch file.
+  * Add C++ implementation of command_publisher.
+  * changes to nmea gps and serial bringup and added rtcm netserial stream
+  * Contributors: Andrew Blakey, Mike Purvis
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Tue, 14 Apr 2015 04:00:00 -0000
+
+ros-indigo-heron-nmea (0.0.4-0trusty) trusty; urgency=high
+
+  * Fixes for NMEA interface spec.
+  * Catkin fixes to the nmea python scripts.
+  * Add mjpeg_server dependency
+  * Contributors: Mike Purvis
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Wed, 19 Mar 2014 04:00:00 -0000
+
+ros-indigo-heron-nmea (0.0.3-0trusty) trusty; urgency=high
+
+  * Catkinization of kingfisher_nmea; still have a service call problem with ENU to resolve.
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Thu, 30 Jan 2014 05:00:00 -0000
+
+ros-indigo-heron-nmea (0.0.2-0trusty) trusty; urgency=high
+
+  * Move kingfisher_nmea to subdirectory.
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Thu, 24 Oct 2013 04:00:00 -0000
+
+ros-indigo-heron-nmea (0.0.1-0trusty) trusty; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Mon, 09 Sep 2013 04:00:00 -0000
+
+
