@@ -2,6 +2,14 @@
 Changelog for package heron_nmea
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.5 (2016-08-03)
+------------------
+* Updated the remap for the nmea_if socket node.
+* Contributors: Tony Baltovski
+
+* Updated the remap for the nmea_if socket node.
+* Contributors: Tony Baltovski
+
 0.1.4 (2016-07-22)
 ------------------
 
