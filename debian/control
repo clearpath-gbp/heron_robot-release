@@ -1,0 +1,12 @@
+Source: ros-indigo-heron-base
+Section: misc
+Priority: extra
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-roslaunch
+Homepage: http://wiki.ros.org/Robots/Heron
+Standards-Version: 3.9.2
+
+Package: ros-indigo-heron-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-declination, ros-indigo-enu, ros-indigo-heron-controller, ros-indigo-heron-description, ros-indigo-heron-msgs, ros-indigo-imu-compass, ros-indigo-nmea-comms, ros-indigo-nmea-msgs, ros-indigo-nmea-navsat-driver, ros-indigo-robot-pose-ekf-gpsfix, ros-indigo-robot-upstart, ros-indigo-rosserial-python, ros-indigo-rosserial-server, ros-indigo-tf, ros-indigo-um6, ros-indigo-wireless-watcher
+Description: Heron's mobility and sensor base.
