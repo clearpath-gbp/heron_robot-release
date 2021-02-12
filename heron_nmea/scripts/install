@@ -1,1 +1,0 @@
-cp ../launch/nmea_if.launch /etc/ros/$ROS_DISTRO/ros.d
