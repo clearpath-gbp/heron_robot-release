@@ -1,0 +1,13 @@
+Source: ros-kinetic-heron-bringup
+Section: misc
+Priority: optional
+Maintainer: Tony Baltovski <tbaltovski@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-heron-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-axis-camera, ros-kinetic-heron-base, ros-kinetic-lms1xx, ros-kinetic-nmea-comms, ros-kinetic-nmea-navsat-driver, ros-kinetic-robot-upstart (>= 0.1.1)
+Description: Provides upstart setup for Heron, and launch files for the standard configuration.
+ Also provides configuration for u-blox GPS receiver which is part of Heron's sensor suite.
