@@ -1,0 +1,12 @@
+Source: ros-kinetic-heron-nmea
+Section: misc
+Priority: optional
+Maintainer: Tony Baltovski <tbaltovski@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-heron-msgs, ros-kinetic-nmea-msgs, ros-kinetic-roscpp, ros-kinetic-std-srvs, ros-kinetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-heron-nmea
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-geometry-msgs, ros-kinetic-heron-msgs, ros-kinetic-nav-msgs, ros-kinetic-nmea-comms, ros-kinetic-nmea-msgs, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-tf
+Description: The heron_nmea package
