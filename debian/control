@@ -1,0 +1,12 @@
+Source: ros-kinetic-heron-base
+Section: misc
+Priority: optional
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roslaunch
+Homepage: http://wiki.ros.org/Robots/Heron
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-heron-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-pysnmp4, ros-kinetic-heron-control, ros-kinetic-heron-controller, ros-kinetic-heron-description, ros-kinetic-heron-msgs, ros-kinetic-imu-filter-madgwick, ros-kinetic-nmea-comms, ros-kinetic-nmea-msgs, ros-kinetic-nmea-navsat-driver, ros-kinetic-robot-upstart, ros-kinetic-ros-mscl, ros-kinetic-rosserial-python, ros-kinetic-rosserial-server, ros-kinetic-tf, ros-kinetic-um6, ros-kinetic-wireless-watcher
+Description: Heron's mobility and sensor base.
