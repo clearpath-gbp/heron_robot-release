@@ -2,6 +2,9 @@
 Changelog for package heron_nmea
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.7 (2021-05-18)
+------------------
+
 0.1.6 (2021-02-12)
 ------------------
 * [heron_nmea] Switched to std_srvs. (`#7 <https://github.com/heron/heron_robot/issues/7>`_)
