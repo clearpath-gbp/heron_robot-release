@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>heron_base</name>
-  <version>0.1.6</version>
+  <version>0.1.7</version>
   <description>Heron's mobility and sensor base.</description>
 
   <maintainer email="mpurvis@clearpathrobotics.com">Mike Purvis</maintainer>
@@ -31,6 +31,7 @@
   <run_depend>wireless_watcher</run_depend>
   <run_depend>imu_filter_madgwick</run_depend>
   <run_depend>python-pysnmp</run_depend>
+  <run_depend>topic_tools</run_depend>
 
   <export>
   </export>
