@@ -1,3 +1,30 @@
+## heron_robot (melodic) - 0.1.10-1
+
+The packages in the `heron_robot` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic heron_robot` on `Wed, 26 Jan 2022 14:32:21 -0000`
+
+These packages were released:
+- `heron_base`
+- `heron_bringup`
+- `heron_nmea`
+- `heron_robot`
+
+Version of package(s) in repository `heron_robot`:
+
+- upstream repository: https://github.com/heron/heron_robot.git
+- release repository: https://github.com/clearpath-gbp/heron_robot-release.git
+- rosdistro version: `0.1.9-1`
+- old version: `0.1.9-1`
+- new version: `0.1.10-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## heron_robot (melodic) - 0.1.9-1
 
 The packages in the `heron_robot` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic heron_robot` on `Tue, 14 Dec 2021 19:16:19 -0000`
